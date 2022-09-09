@@ -1,10 +1,2 @@
 #!/bin/bash
-#include stdio.h
-/* this prints welcome on board*/
-int main(void)
-
-{
-	printf("welcome on board");
-    return (0);
-
-}
+gcc main.c > test.c
